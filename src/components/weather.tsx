@@ -3,11 +3,11 @@
 import { useState, FormEvent } from "react";
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+
 
 import { Button } from "@/components/ui/button";
 
-import { CloudIcon, Divide, MapPinIcon, ThermometerIcon } from "lucide-react";
+import { CloudIcon,  MapPinIcon, ThermometerIcon } from "lucide-react";
 import { networkInterfaces } from "os";
 
 interface WeatherData {
